@@ -1,11 +1,15 @@
 ![Logo](https://camo.githubusercontent.com/b0ab1106f079aac465f467de9f6339656c5a5977dd31da1d6551836c89c639b8/68747470733a2f2f67697463646e2e6c696e6b2f7265706f2f686f70736f66742f7374696d756c75735f7265666c65782f6d61737465722f6173736574732f7374696d756c75732d7265666c65782d6c6f676f2d776974682d636f70792e737667)
 
     
-# Stimulus Reflex Sandbox
+# StimulusReflex Sandbox
 
-Based on [SR Mini](https://github.com/hopsoft/sr_mini)
+StimulusReflex allows Rails developers to build reactive UIs without the need for SPAs like React. However, the server-side nature of Rails and SR has meant that *until now*m it's been difficult to easily provide interactive examples that you can embed in a blog. **Introducing... the StimulusReflex Sandbox.**
 
+Sandbox apps are based on [sr mini](https://github.com/hopsoft/sr_mini), the single-file StimulusReflex-powered Rails app template. We gently oil and massage the sr_mini until it runs happily inside of a [Glitch](https://glitch.com) container. Glitch is similar to Codepen (or one of the many competitors) except that it also allows you to run a server-side VM, without any of the standard security concerns.
 
+People are free to try the demo, inspect the code behind it and "remix" their own projects based on it.
+
+You can see some great examples of SR Sandbox apps on the [StimulusReflex Patterns](https://www.stimulusreflexpatterns.com/patterns/) site.
 
 [![Remix on Glitch](https://cdn.gomix.com/f3620a78-0ad3-4f81-a271-c8a4faa20f86%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/stimulus-reflex-sandbox)
 ## Tech Stack
@@ -18,9 +22,11 @@ Based on [SR Mini](https://github.com/hopsoft/sr_mini)
 - **NO** database
 
   
-## Usage/Examples
+## Usage
 
+You can embed a StimulusReflex Sandbox app into a post on [dev.to](https://dev.to/) with a simple short-code:
 
+`{% glitch stimulus-reflex-sandbox app %}`
   
 ## FAQ/Gotchas
 
