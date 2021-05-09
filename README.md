@@ -3,7 +3,7 @@
     
 # StimulusReflex Sandbox
 
-StimulusReflex allows Rails developers to build reactive UIs without the need for SPAs like React. However, the server-side nature of Rails and SR has meant that *until now*m it's been difficult to easily provide interactive examples that you can embed in a blog.
+StimulusReflex allows Rails developers to build reactive UIs without the need for SPAs like React. However, the server-side nature of Rails and SR has meant that - *until now* - it's been difficult to easily provide interactive examples that you can embed in a blog.
 
 Enter... the StimulusReflex Sandbox.
 
