@@ -3,7 +3,9 @@
     
 # StimulusReflex Sandbox
 
-StimulusReflex allows Rails developers to build reactive UIs without the need for SPAs like React. However, the server-side nature of Rails and SR has meant that *until now*m it's been difficult to easily provide interactive examples that you can embed in a blog. **Introducing... the StimulusReflex Sandbox.**
+StimulusReflex allows Rails developers to build reactive UIs without the need for SPAs like React. However, the server-side nature of Rails and SR has meant that *until now*m it's been difficult to easily provide interactive examples that you can embed in a blog.
+
+Enter... the StimulusReflex Sandbox.
 
 Sandbox apps are based on [sr mini](https://github.com/hopsoft/sr_mini), the single-file StimulusReflex-powered Rails app template. We gently oil and massage the sr_mini until it runs happily inside of a [Glitch](https://glitch.com) container. Glitch is similar to Codepen (or one of the many competitors) except that it also allows you to run a server-side VM, without any of the standard security concerns.
 
